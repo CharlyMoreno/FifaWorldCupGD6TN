@@ -4,7 +4,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/CharlyMoreno/FifaWorldCupGD6TN">
-    <img src="Mundial/LogoWorldCupSquare.png" alt="Logo" width="80" height="80">
+    <img src="Mundial/LogoWorldCupSquare.png" alt="Logo" width="150" height="150">
   </a>
 
   <h3 align="center">FifaWorldCup - GD6TN - UTN FRM</h3>
@@ -21,19 +21,19 @@
   <summary>Contenidos</summary>
   <ol>
     <li>
-      <a href="#about-the-project">Proyecto</a>
+      <a href="#proyecto">Proyecto</a>
       <ul>
-        <li><a href="#built-with">Tecnologías</a></li>
+        <li><a href="#tecnologías">Tecnologías</a></li>
       </ul>
     </li>
     <li>
-      <a href="#getting-started">Como Empezar</a>
+      <a href="#como-empezar">Como Empezar</a>
       <ul>
-        <li><a href="#prerequisites">Requisitos</a></li>
-        <li><a href="#installation">Instalacion</a></li>
+        <li><a href="#requisitos">Requisitos</a></li>
+        <li><a href="#instalación">Instalacion</a></li>
       </ul>
     </li>
-    <li><a href="#contact">Autores</a></li>
+    <li><a href="#autores">Autores</a></li>
   </ol>
 </details>
 
@@ -100,15 +100,15 @@ Si queremos ejecutar este programa en nuestro entorno local debemos hacer lo sig
 
 ### Requisitos
 
-Tener instalado [Visual Studio 2019](https://visualstudio.microsoft.com/es/downloads/) o versiones superiores
-Tener instalado y ejecutando una instancia de [MySQL](https://www.mysql.com/downloads/)
+* Tener instalado [Visual Studio 2019](https://visualstudio.microsoft.com/es/downloads/) o versiones superiores
+* Tener instalado y ejecutando una instancia de [MySQL](https://www.mysql.com/downloads/)
 
 ### Instalación
 
 _Dicho proyecto está hecho para trabajar con una Base de Datos MYSQL local, pero de igual forma se puede sustituir por una Base de Datos Online_
 
 1. Cargar Script [scriptMundial](https://github.com/CharlyMoreno/FifaWorldCupGD6TN/blob/master/ScriptBD/scriptMundial.sql)
-2. Modificar [App.Config] (https://github.com/CharlyMoreno/FifaWorldCupGD6TN/blob/master/Mundial/Mundial/App.config)
+2. Modificar [App.Config](https://github.com/CharlyMoreno/FifaWorldCupGD6TN/blob/master/Mundial/Mundial/App.config)
     Aca debemos configurar el ConnectionString con las credenciales válidas para poder acceder a nuestra base de datos, ya sea local o en línea.
    ```xml
    <add key ="ConnectionString" value ="server=localhost;database=fifaworldcup;userid=root;password=root"/>
