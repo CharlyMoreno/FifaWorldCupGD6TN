@@ -92,6 +92,7 @@ Tecnologías usadas en este proyecto.
 
 * [C#](https://docs.microsoft.com/en-us/dotnet/csharp/)
 * [MySQL](https://www.mysql.com/)
+* [Conector MySQL-C#](https://dev.mysql.com/downloads/connector/net/)
 
 <!-- GETTING STARTED -->
 ## Como Empezar
@@ -102,6 +103,7 @@ Si queremos ejecutar este programa en nuestro entorno local debemos hacer lo sig
 
 * Tener instalado [Visual Studio 2019](https://visualstudio.microsoft.com/es/downloads/) o versiones superiores
 * Tener instalado y ejecutando una instancia de [MySQL](https://www.mysql.com/downloads/)
+* Tener instalado [Conector MySQL-C#](https://dev.mysql.com/downloads/connector/net/)
 
 ### Instalación
 
